@@ -9,11 +9,11 @@ Este encriptador no acepta mayúsculas, acentos, ni caracteres especiales, dará
 ![imagen](https://github.com/user-attachments/assets/074a96ce-9b56-417b-bfd8-6a9348088f49)
 
 CÓDIGOS DE ENCRIPTACIÓN
-========================================
+
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
 La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
-=========================================
+
 
