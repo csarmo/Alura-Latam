@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-do">
+	<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="app.js"></script>
+		
+	<title>Alura Challenge 1</title>
+		
+	</head>
+		
+		
+	
+	<body>
+	
+		<header></header>
+		
+		<main class="frame">
+				
+			<section class="parte_izquierda">
+				
+				<textarea class="input_text" type="text" maxlength="1000" placeholder="Ingrese el texto aqui"></textarea>
+				
+											
+				<div class="warning_message">
+				
+					<img alt="warning sign" src="Resources/warning_sign.png" width="16px" height="16px">
+				
+					<p class="warning_reason">Solo letras minúsculas y sin acentos</p>
+					<br>
+					<br>
+				
+				</div>
+				
+				<div class="buttons">
+				
+					<button class="Encriptar" onclick="encriptar_texto();">Encriptar</button>
+					<button class="Desencriptar" onclick="desencriptar_texto();">Desencriptar</button>
+				
+				</div>
+				
+			</section>
+				
+			<section class="parte_derecha">
+				
+				<div class="cuadro_resultado">
+				
+					<div class="texto_salida">
+					
+						<p class="encripted_text" hidden></p>
+					
+					</div>
+				
+					<div class="searching_image">
+						<img alt="looking for text" src="Resources/alura_encriptador.png" width="336px" height="304px">
+					</div>
+					
+					<div class="right_content">
+						
+						<br>
+						<br>
+						<h2 class="message_1">Ningún mensaje fue encontrado<h2>
+						<br>
+						<p class="message_2">Ingresa el texto que desees encriptar o desencriptar.</p>
+						
+					</div>
+										
+				</div>
+								
+			</section>
+				
+		</main>
+		
+	<footer class="footer">
+		
+		<div class="identity_box">
+		
+			<div class="signature">
+				<br>
+				<p>By Cesar Mojica</p>
+				<p>2024</p>
+				<br>
+			</div>
+		
+			<div class="qr_link">
+		
+				<img alt="My linkedin" src="Resources/my_linkedin.png" width="115px" height="115px">
+		
+			</div>
+		
+		</div>
+		
+	</footer>
+		
+	</body>
+		
+</html>

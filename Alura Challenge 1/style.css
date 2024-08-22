@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 14px;
+}
+
+:root {
+	
+	--background_crema: #eef2e2;
+	--boton_azul_oscuro: #1679AB;
+	--boton_azul_claro: #D8DFE8;
+	--color_parte_izquierda: white;
+	--fuente_principal: Inter;
+	--botones_width: 23.43rem;
+	--botones_height: 4.78rem;
+	--botones_bordes: 1.7rem;
+	--botones_font_size: 1.43rem;
+	--font_size_textos: 2rem;
+	
+}
+
+body {
+	background-color: var(--background_crema);
+	height: 73.143rem;
+	width: 102.86rem;
+	box-sizing: border-box;
+}
+
+.frame {
+	margin: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.parte_izquierda {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 1rem;
+}
+
+.parte_derecha {
+	margin-left: 1rem;
+}
+
+.input_text {
+	width: 48.57rem;
+	height: 47.57rem;
+	box-sizing: border-box;
+	font-family: var(--fuente_principal);
+	font-size: var(--font_size_textos);
+	background-color: var(--background_crema);
+}
+
+.warning_message {
+	margin: 1%;
+	display: flex;
+	font-family: var(--fuente_principal);
+	font-size: 0.86rem;
+}
+
+.warning_reason {
+	margin-left: 0.3rem;	
+}
+
+.right_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Encriptar {
+	background-color: #0A3871;
+	width: var(--botones_width);
+	height: var(--botones_height);
+	border-radius: var(--botones_bordes);
+	font-family: var(--fuente_principal);
+	font-size: var(--botones_font_size);
+	color: var(--boton_azul_claro);
+}
+
+.Encriptar:hover {background-color: var(--boton_azul_oscuro);}
+
+
+.Desencriptar {
+	background-color: var(--boton_azul_claro);
+	width: var(--botones_width);
+	height: var(--botones_height);
+	border-radius: var(--botones_bordes);
+	font-family: var(--fuente_principal);
+	font-size: var(--botones_font_size);	
+	font-family: var(--fuente_principal);
+	color: #0A3871;
+}
+
+.Desencriptar:hover {background-color: #EEEDEB;}
+
+.cuadro_resultado {
+	background-color: var(--color_parte_izquierda);
+	width: 48.57rem;
+   min-height: 55.43rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2.125rem;
+}
+
+.message_1 {
+	font-family: var(--fuente_principal);
+	font-size: 2.125rem;
+}
+
+.message_2 {
+	font-family: var(--fuente_principal);
+	font-size: 1.14rem;
+	font-style: normal;
+}
+
+.texto_salida {
+	
+}
+
+.encripted_text  {
+	font-family: var(--fuente_principal);
+	font-size: var(--font_size_textos);
+	color: black;
+	margin: 2%;
+	min-heigth: 55.43rem;
+}
+
+.footer {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+
+.identity_box {
+	width: 17.86rem;
+	height: 10rem;
+	background-color: var(--color_parte_izquierda);
+	box-sizing: border-box;
+	font-family: Yanone Kaffeesatz;
+    font-weight: 900;
+    font-style: normal;
+    font-size: var(--botones_font_size);
+	border-radius: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Media query zone */
+
+/*Tablet*/
+@media (max-width: 768px) {
+	
+	.frame {
+		flex-direction: column;
+	}
+	
+	.searching_image {
+		content-visibility: hidden;
+	}
+	
+	.parte_derecha {
+		margin-left: 0;
+		margin-top: 3%;
+	}
+	
+	.cuadro_resultado {
+		width: 49.14rem;
+		min-height: 9.5rem;
+		justify-content: normal;
+	}
+	
+	.footer {
+		flex-direction: column;
+	}
+}
+	
+/*Celular*/
+@media (max-width: 375px) {
+	
+	.frame {
+		flex-direction: column;
+	}
+	
+	.searching_image {
+		content-visibility: hidden;
+	}
+	
+	.parte_derecha {
+		margin-left: 0;
+		margin-top: 3%;
+	}
+	
+	.cuadro_resultado {
+		width: 49.14rem;
+		min-height: 9.5rem;
+		justify-content: normal;
+	}
+	
+	.buttons {
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.Desencriptar {
+		margin-top: 1.7rem;
+	}
+	
+	.footer {
+		flex-direction: column;
+	}
+}
