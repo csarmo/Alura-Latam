@@ -1,0 +1,253 @@
+/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
+*/
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+    --color-de-bloque-morado: #D1CBDF;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+
+.cabecera {
+    background-color: azure;
+}
+
+.cabecera__titulo {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.navegacion__elemento a {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion__lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes_img_logos {
+    width: 15px;
+    height: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.redes__img {
+    padding: 0.5%;
+}
+
+
+/* ------------------------------ Sección Presentación ------------------------------*/
+.presentacion {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.presentacion__titulo {
+    font-size: 52px;
+    margin-bottom: 0%;
+}
+
+.presentacion__subtitulo {	
+   font-size: 26px;
+
+}
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+.sobre-mi {
+    background-color: var(--color-de-bloque-morado);
+}
+
+.sobre-mi__titulo {
+    font-size: 40px;
+}
+
+.sobre-mi__texto {
+    font-size:24px;
+}
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+
+.habilidades__titulo {
+    text-align: center;
+}
+
+.habilidades__lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.habilidades_elemento_cuadro {
+    background-color: var(--color-de-bloque-morado);
+    width: 120px;
+    height: 100px;  
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.habilidades__icono {
+    width: 46px;
+    height: 52px;
+}
+
+/*------------------------------ Sección de Formación Académica --------------------------------*/
+.formacion__titulo {
+    text-align: center;
+}
+
+.formacion__lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.formacion__icono {
+    width: 366px;
+    height: 90px;
+}
+
+.formacion__detalle {
+    margin-top: 0;
+}
+
+.formacion__nombre {
+    margin-bottom: 0;
+}
+
+.formacion__elemento {
+    background-color: var(--color-de-bloque-morado);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.fromacion__descripcion {
+
+}
+
+/*------------------------------ Sección de Proyectos --------------------------------*/
+.proyectos__contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-de-bloque-morado);
+}
+
+.proyectos__titulo {
+    text-align: center;
+}
+
+.proyectos_informaciones {
+    display: flex;
+    flex-flow: column;
+}
+
+.proyectos__descripcion {
+    margin: 0;
+}
+
+.enlace_challenge_encriptadores {
+ color: #ffffff;
+}
+
+/*------------------------------ Sección de Contacto ---------------------------------*/
+.contacto__titulo {
+    text-align: center;
+}
+
+.contacto {
+    background-color: #EAF2FD;
+}
+
+.contacto__formulario {
+    display: flex;
+    justify-content: start;
+}
+
+.contacto__campos {
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+}
+
+.contacto__campo {
+    margin-top: 20px;
+    margin-botton: 20px;
+	
+}
+
+.imagen_contacto { 
+	width: 300px; 
+	height: 336px;
+}
+
+
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+
+@media (max-width: 990px) {
+
+.presentacion__titulo { font-size: 36px; }
+.presentacion__subtitulo { font-size: 19px; }
+.sobre-mi__titulo { font-size: 22px; }
+.sobre-mi__texto { font-size: 19px; }
+.imagen_contacto { display:none; }
+.contacto__formulario { justify-content: center; }
+}
+
+/* Mobiles */
+
+@media (max-width: 450px) {
+
+.habilidades__titulo { font-size: 18px; }
+.habilidades__nombre { font-size: 14px; }
+.formacion__titulo { font-size: 18px; }
+.formacion__nombre { font-size: 14px; }
+.formacion__detalle { font-size: 10px; }
+.formacion__icono {width: 100px;}
+.imagen_contacto { display:none; }
+.contacto__formulario { justify-content: center; }
+}
+
