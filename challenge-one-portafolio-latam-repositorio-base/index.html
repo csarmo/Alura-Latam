@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        
+        <nav class="navegacion">
+
+                <h1 class="cabecera__titulo">CeMoA</h1>     
+                
+                <ul class="navegacion__lista">
+                    <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                    <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                    <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                    <li class="navegacion__elemento"><a href="#proyectos">Trabajos</a></li>
+                    <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+	<picture class="presentacion__foto">
+  		<source srcset="assets/foto_presentacion_tablet.png" media="(max-width: 990px) and (min-width: 451px)"/> 
+		<source srcset="assets/foto_presentacion_mobil.png" media="(max-width: 450px)" />
+  		<img src="assets/foto_de_perfil.png" alt="Foto de perfil" />
+	</picture>
+
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo">Hola, soy CeMoA y construyo páginas web</h2>
+            <p class="presentacion__subtitulo">Ofreciendo mis servicios de Diseño Web y Analista de Seguridad de la Información.</p>
+            <ul class="redes">
+                <li class="redes__img">
+                    <a target="_blank" href="https://github.com/csarmo">Github</a>
+                    <img class="redes_img_logos" src="assets/github_logo.png" alt="Github_logo">
+                </li>
+                <li class="redes__img">
+                    <a target="_blank" href="https://www.linkedin.com/in/cesar-mojica-a6438319a/">Linkedin </a>
+                    <img class="redes_img_logos" src="assets/logo_linkedin.png" alt="Linkedin_logo">
+                </li>
+                <li class="redes__img">
+                    <a target="_blank" href="assets/César_Mojica_CV_English.pdf">Currículo</a>
+                    <img class= "redes_img_logos" src="assets/CV_logo.PNG">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">Soy un Front-end Developer egresado del programa Oracle Next Education para HTML,<br/> 
+        CSS y Javascript en el 2024 (G7) y trabajando en el sector de la Ciberseguridad<br/> 
+        desde el 2022.<br/>
+
+        <p class="sobre-mi__texto">Además de programación de paginas web personales y empresariales, <br/> 
+        tengo conocimientos en el area de análisis de vulnerabilidades en portales<br/> 
+        Web y plataformas embebidas (plataformas para backend y ambientes de terceros).</p>
+        
+   </section>
+
+    <!-- Sección de Habilidades -->
+     <br>
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li>
+                <div class="habilidades_elemento_cuadro">
+                    <img class="habilidades__icono" src="assets/logo_html_5.png" alt="HTML">
+                    <p class="habilidades__nombre">HTML 5</p>
+                </div>
+                    
+            </li>
+            <li>
+                <div class="habilidades_elemento_cuadro">
+                    <img class="habilidades__icono" src="assets/logo_javascript.png" alt="JavaScript">
+                    <p class="habilidades__nombre">JavaScript</p>
+                </div>
+            </li>
+            <li>
+                <div class="habilidades_elemento_cuadro">
+                    <img class="habilidades__icono" src="assets/logo_css.png" alt="CSS">
+                    <p class="habilidades__nombre">CSS</p>
+                </div>
+            </li>
+            <li>
+                <div class="habilidades_elemento_cuadro">
+                    <img class="habilidades__icono" src="assets/logo_node_js.png" alt="Node.js">
+                    <p class="habilidades__nombre">Node.js</p>
+                </div>
+            </li>
+            <li>
+                <div class="habilidades_elemento_cuadro">
+                    <img class="habilidades__icono" src="assets/logo_react.png" alt="React">
+                    <p class="habilidades__nombre">React</p>
+                </div>
+            </li>
+            <li>
+                <div class="habilidades_elemento_cuadro">
+                    <img class="habilidades__icono" src="assets/logo_ciberseguridad.png" alt="Ciberseguridad">
+                    <p class="habilidades__nombre">Ciberseguridad</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <br>
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+
+		<picture class="formacion__icono">
+  			<source srcset="assets/Neetwork_logo_pequeno.png" media="(max-width: 450px)"/> 
+			<img src="assets/logo_neetwork_desktop.png" alt="Logo Neetwork" />
+		</picture>
+		               		
+                <div class="fromacion__descripcion">
+                    <h3 class="formacion__nombre">Marketing Digital y Analítica Web</h3>
+                    <p class="formacion__detalle">Neetwork, 2021</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+		<picture class="formacion__icono">
+  			<source srcset="assets/Alura_logo_pequeno.png" media="(max-width: 450px)"/> 
+			<img src="assets/logo_alura_desktop.png" alt="Logo Alura" />
+		</picture>
+                		
+                <div fromacion__descripcion>
+                    <h3 class="formacion__nombre">Formación en Front End Developer</h3>
+                    <p class="formacion__detalle">Alura, En curso</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+		<picture>
+			<source srcset="assets/EC-Council_logo_pequeno.png" media="(max-width: 450px)"/>
+			<img src="assets/logo_eccouncil_desktop.png" alt="Logo EC-Council"/>
+		</picture>
+                		
+                <div fromacion__descripcion>
+                    <h3 class="formacion__nombre">CHFI (Computer Forensics)</h3>
+                    <p class="formacion__detalle">EC-Council, 2024</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Trabajos -->
+     <br>
+    <section class="trabajos">
+        <h2 class="proyectos__titulo">Trabajos</h2>
+        <div class="proyectos__contenedor">
+            <picture>
+				<source srcset="assets/encriptador_tablet.png" width="350px" height="477px" media="(max-width: 990px) and (min-width: 451px)"/>
+				<source srcset="assets/encriptador_mobil.png" width="220px" height="281.4px" media="(max-width: 450px)"/>
+				<img src="assets/encriptador_texto_desktop.png" alt="Trabajo Encriptador"/>
+			</picture>
+            <div class="proyectos_informaciones">
+                <h3 class="proyectos__nombre">Encriptador de texto</h3>
+                <p class="proyectos__descripcion">Challenge Alura Latam</p>
+                <a class="enlace_challenge_encriptadores" target="_blank" href="https://github.com/csarmo/Alura-Latam/tree/main/Alura%20Challenge%201">Repositorio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <br>
+    <br>
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <form class="contacto__formulario">
+            <img class="imagen_contacto" src="assets/contact_phone.png" alt="imagen_telefono">
+            <div class="contacto__campos">
+                <input class="contacto__campo" type="text" placeholder="Nombre">
+                <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+                <textarea class="contacto__campo" id="contacto__mensaje" placeholder="Mensaje"></textarea>
+                <button class="contacto__boton" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+
+</body>
+    <script src="script.js"></script>
+</html>
