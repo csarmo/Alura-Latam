@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+:root {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+ /*.pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(209, 130, 84, 0.674);
+    padding: 15px;
+}
+
+.main {
+    display: flex;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1%;
+    overflow: auto;
+}
+
+.productos {
+    height: 50vh;    
+}
+
+.carrito {
+    padding-left: 70px;
+    padding-right: 40px;
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetas {
+    padding-left: 40px;
+    width: 1100px;
+}
+
+.entrada {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border-color: blue;
+}
+
+.boton {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+      
+.boton:hover {
+        background-color: rgb(179, 222, 233);
+      }
+
+.limpiar {
+   background-color: rgb(169, 207, 119)
+}
+
+.enviar {
+    background-color: rgb(0, 220, 92);
+}
+
+.contenido_footer {
+    padding: 15px;
+    background-color: rgb(155, 197, 127);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.firma {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.dirigido {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .main {
+        flex-flow: column-reverse;
+    }
+
+    .carrito {
+        padding: 10px;
+        height: 250px;        
+    }
+
+    .productos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.miniatura_producto {
+    font-family: arial narrow bold;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.card-container {
+    margin: 2px;
+}
+
+.value {
+    font-weight: bold;
+}
+
+.card-comments {
+    margin-bottom: 20px;
+}
+
+.productos_publicados {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.no-product {
+    font-size: 18px;
+    align-self: baseline;
+    padding-left: 50%;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+}

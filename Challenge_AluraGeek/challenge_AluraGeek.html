@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es-do">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+
+    <link rel="stylesheet" href="challenge_AluraGeek.css">
+
+    
+</head>
+
+<body class="pagina">
+
+    <header> 
+    
+        <div class="header">
+            <img class="logo" src="Recursos/AluraGeek.svg" alt="Alura Geek Logo">
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="productos tarjetas">
+
+            <h2> Mis Productos:</h2>
+            <br>
+            <br>
+
+ <!-- div que contiene los listing de productos-->     
+
+        <div class="productos_publicados" data-producto>
+            
+        </div>
+
+ <!--           <div class="miniatura_producto">
+                <img src="./assets/producto1.png" />
+                <div class="card-container--info">
+                  <p>Nombre</p>
+                  <div class="card-container--value">
+                    <p>$ 00.00</p>
+                    <img src="./assets/trashIcon.png" />
+                  </div>
+                </div>
+              </div>
+    -->
+
+        </section>
+
+        <section class="productos carrito">
+        
+            <h2> Agregar Productos:</h2>
+            <br>
+
+            <form class="formulario" data-formulario>
+
+                <input class="entrada nombre" type="text" placeholder="nombre..." data-nombre></input>
+                <input class="entrada precio" type="text" placeholder="precio..." data-precio></input>
+                <input class="entrada imagen" type="text" placeholder="ruta de imagen..." data-url></input>
+
+                <div class="botones">
+                    <button class="boton enviar" type="submit">Enviar</button>
+                    <button class="boton limpiar" type="reset">Limpiar</button>
+                </div>
+
+            </form>
+            
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="contenido_footer"> 
+            <img src="Recursos/AluraGeek.svg" alt="AluraGeek logo">
+            <p class="firma">DESARROLLADO POR CESAR MOJICA</p>
+            <p class="dirigido">Alura latam 2024</p>
+        </div>
+
+    </footer>
+      
+    <script src="./Recursos/js/cargar_productos.js" type="module"></script>
+    <script src="./Recursos/js/API_calls.js" type="module"></script>
+    <script src="./Recursos/js/publicar_producto.js" type="module"></script>
+    
+
+</body>
+</html>

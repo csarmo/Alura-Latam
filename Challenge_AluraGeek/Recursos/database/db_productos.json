@@ -1,0 +1,16 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Berserk Volumen 1",
+      "precio": "42.49",
+      "url": "./Recursos/media/berserk_manga.png"
+    },
+    {
+      "id": "2",
+      "nombre": "The promised neverland",
+      "precio": "45.75",
+      "url": "./Recursos/media/the_promised_neverland.png"
+    }
+  ]
+}
