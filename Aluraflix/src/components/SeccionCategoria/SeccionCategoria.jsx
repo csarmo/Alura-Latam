@@ -32,8 +32,8 @@ function SeccionCategoria(props) {
 
 
                     <h1 className="section_category">
-                        <span className="categorizaciones" /*style={{background: categoria_FrontEnd[0].color}} */ > 
-                            categoria 
+                        <span className="categorizaciones" style={{background: categoria_FrontEnd[0].color}} > 
+                            categoria_FrontEnd[0].categoria
                         </span>
                     </h1>
 
@@ -44,8 +44,8 @@ function SeccionCategoria(props) {
 
 
                     <h1 className="section_category">
-                        <span className="categorizaciones" > 
-                        categoria
+                        <span className="categorizaciones" style={{background: categoria_BackEnd[0].color}}> 
+                        categoria_BackEnd[0].categoria
                         </span>
                     </h1>
 
@@ -56,8 +56,8 @@ function SeccionCategoria(props) {
 
 
                     <h1 className="section_category">
-                        <span className="categorizaciones" > 
-                        categoria
+                        <span className="categorizaciones" style={{background: categoria_InnoDesa[0].color}}> 
+                        categoria_InnoDesa[0].categoria
                         </span>
                     </h1>
 
