@@ -1,0 +1,30 @@
+.card {
+
+    border-radius: 15px;
+    width: 429px;
+}
+
+.boton_card {
+    height: 59px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.area_botones {
+    padding: 0 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly
+}
+
+.estilo_lista {
+    margin: 0% 0.5% 0% 0.5%;
+}

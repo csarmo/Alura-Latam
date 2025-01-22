@@ -1,0 +1,38 @@
+.categorizaciones {
+    font-weight: bold;
+    color:#F5F5F5;
+    font-family: roboto;
+    font-size: 32px;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.videos_por_categoria {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section_category {
+    padding-left: 50px;
+}
+
+.listado_videos {
+    display: flex;
+    flex-flow: row;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1%;
+}
+
+@media (max-width: 1346px) {
+    .listado_videos{
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .videos_por_categoria {
+        align-items: center;
+    }
+}

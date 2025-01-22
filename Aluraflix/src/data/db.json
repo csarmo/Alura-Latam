@@ -1,0 +1,112 @@
+{
+  "Videos": [
+    {
+      "id": "1",
+      "titulo": "Cómo Empezar en el Desarrollo Móvil: Carrera como Desarrollador de Aplicaciones",
+      "categoria": "INNOVACIÓN Y GESTIÓN",
+      "imagen": "https://i.ytimg.com/vi/sutTgSkD0hI/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=sutTgSkD0hI&pp=ygULYWx1cmEgbGF0YW0%3D",
+      "color": "#FFBA05",
+      "descripcion": "¿Te interesa el desarrollo móvil? En este video, te llevamos a conocer el mundo del desarrollo de aplicaciones móviles, explicando qué hace un desarrollador mobile y cómo puedes dar tus primeros pasos en esta área en crecimiento. Aprende sobre las habilidades necesarias, las herramientas más usadas y cómo empezar una carrera exitosa como desarrollador de apps para Android e iOS. Si estás buscando entrar en el sector de la programación móvil, ¡este video es para ti!"
+    },
+    {
+      "id": "2",
+      "titulo": "Conociendo la API de Open AI",
+      "categoria": "INNOVACIÓN Y GESTIÓN",
+      "imagen": "https://i.ytimg.com/vi/tDG29s1IVx8/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=tDG29s1IVx8",
+      "color": "#FFBA05",
+      "descripcion": "¿Te interesa aprender a conectar tus aplicaciones Java con la API de OpenAI? En este video te llevaremos paso a paso desde la creación de tu cuenta hasta la exploración de los principales recursos de la API, incluyendo modelos, costos y el uso del playground. ¡Es el comienzo perfecto para desarrollar tus proyectos aprovechando la inteligencia artificial! Prepárate, porque en el próximo video te mostraremos cómo implementar todo esto directamente desde una aplicación Java. ¡No te lo pierdas!"
+    },
+    {
+      "id": "3",
+      "titulo": "GitHub: Tu repositorio de código en la nube",
+      "categoria": "INNOVACIÓN Y GESTIÓN",
+      "imagen": "https://i.ytimg.com/vi/7XOF5tnoJHI/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=7XOF5tnoJHI",
+      "color": "#FFBA05",
+      "descripcion": "¿Quieres mostrar tus proyectos de programación al mundo? ¡Con GitHub es muy fácil!"
+    },
+    {
+      "id": "4",
+      "titulo": "Equipo Front End",
+      "categoria": "FRONT END",
+      "imagen": "https://i.ytimg.com/vi/rpvrLaBQwgg/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "color": "#6BD1FF",
+      "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?"
+    },
+    {
+      "id": "5",
+      "titulo": "¿Por qué utilizar React con Typescript?",
+      "categoria": "FRONT END",
+      "imagen": "https://i.ytimg.com/vi/RLZ7-ZfkwOE/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=RLZ7-ZfkwOE",
+      "color": "#6BD1FF",
+      "descripcion": "¿React con JavaScript o React con TypeScript? En este video, te mostramos las diferencias clave entre usar React con JavaScript y hacerlo con TypeScript. Exploramos las ventajas de cada enfoque, cómo impactan en la productividad y la calidad del código, y cuál puede ser la mejor opción para tu proyecto. ¡Descubre cuál es ideal para ti!"
+    },
+    {
+      "id": "6",
+      "titulo": "Prepárate para entrevistas de vacantes Front End",
+      "categoria": "FRONT END",
+      "imagen": "https://i.ytimg.com/vi/tCucAhX51v4/hqdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=tCucAhX51v4",
+      "color": "#6BD1FF",
+      "descripcion": "¿Te estás preparando para tus primeras entrevistas para puestos de Front End? ¿Sabes cuáles son las preguntas más frecuentes de los reclutadores? En este video, nuestra instructora Barbara realizará una simulación de una entrevista para una vacante de Desarrollador Front End Jr. Además, te daremos algunos consejos para que puedas destacar en tus próximas entrevistas."
+    },
+    {
+      "id": "7",
+      "titulo": "Proyecto Java-SpringBoot literatura challenge Back-end Alura literatura",
+      "categoria": "BACK END",
+      "imagen": "https://i.ytimg.com/vi/t-Gh5XB6lFg/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=t-Gh5XB6lFg",
+      "color": "#00C86F",
+      "descripcion": "Saludos en esta oportunidad mostrando el Proyecto realizado en Java-SpringBoot cumpliendo el reto inicial de estructurar el Backend consumiendo el api de GUTENDEX librería digital, el desarrollo está basado en los criterios del Challengs 2 Alura Consumo de api, donde se obtiene gran serie de datos sobre libros"
+    },
+    {
+      "id": "8",
+      "titulo": "La magia detrás de Java",
+      "categoria": "BACK END",
+      "imagen": "https://i.ytimg.com/vi/GrEO8nZzyZM/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=GrEO8nZzyZM",
+      "color": "#00C86F",
+      "descripcion": "Sabemos que el ecosistema de Java es una sopa de letras con varias siglas, y la JVM (Java Virtual Machine) es una de ellas. En este video, nuestra instructora Ellen Pimentel explica su rol y características y es más simple que la magia, es decir, de lo que uno imagina."
+    },
+    {
+      "id": "9",
+      "titulo": "Robot Trading con IA",
+      "categoria": "BACK END",
+      "imagen": "https://i.ytimg.com/vi/Y41jImeUYFQ/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=Y41jImeUYFQ",
+      "color": "#00C86F",
+      "descripcion": "En este video te voy a mostrar cómo puedes utilizar la Inteligencia Artificial (IA) para programar un Trading Bot. Construiremos un script en Python capaz de comprar y vender criptomonedas en el mejor momento del mercado."
+    },
+    {
+      "id": "0937",
+      "titulo": "Billie Eilish - BIRDS OF A FEATHER (Official Music Video)",
+      "categoria": "Innovación y Gestión",
+      "imagen": "https://i.ytimg.com/vi/jPCy7oiGB9A/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=jPCy7oiGB9A",
+      "color": "",
+      "descripcion": "Listen to HIT ME HARD AND SOFT: https://billieeilish.lnk.to/HITMEHARD...  Download BIRDS OF A FEATHER Live from Billie’s Amazon Music Songline performance: https://billieeilish.lnk.to/BIRDSOFAF... Get tickets: https://BillieEilish.lnk.to/TourDates"
+    },
+    {
+      "id": "bdc4",
+      "titulo": "Billie Eilish - BIRDS OF A FEATHER (Official Music Video)",
+      "categoria": "FRONT END",
+      "imagen": "https://i.ytimg.com/vi/jPCy7oiGB9A/hq720.jpg",
+      "video": "https://www.youtube.com/watch?v=jPCy7oiGB9A",
+      "color": "",
+      "descripcion": "Listen to HIT ME HARD AND SOFT: https://billieeilish.lnk.to/HITMEHARD...  Download BIRDS OF A FEATHER Live from Billie’s Amazon Music Songline performance: https://billieeilish.lnk.to/BIRDSOFAF... Get tickets: https://BillieEilish.lnk.to/TourDates"
+    },
+    {
+      "id": "2433",
+      "titulo": "klslkadj",
+      "categoria": "BACK END",
+      "imagen": "fdsjalkj",
+      "video": "fajdlkaj",
+      "color": "",
+      "descripcion": "fkjajflkajl"
+    }
+  ]
+}

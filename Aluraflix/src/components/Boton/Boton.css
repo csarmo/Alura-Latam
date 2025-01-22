@@ -1,0 +1,19 @@
+.boton_grid {
+    margin: 10px 12.5px;
+}
+
+.boton_global {
+    width: 180px;
+    height: 54px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+.boton_global:hover {
+    color:blueviolet;
+    border-color: blueviolet;
+}
