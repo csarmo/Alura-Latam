@@ -18,7 +18,7 @@ const NuevoVideo = (props) => {
 
         //Para seleccionar color dependiendo de categoria puesta
 
-        function seleccionaColor() {
+        function seleccionaColor(categoria) {
             switch (categoria) {
                 case "FRONT END":
                     actualizaColor("#6BD1FF");
@@ -41,7 +41,7 @@ const NuevoVideo = (props) => {
     
         const guardar_datos_NuevoVideo = (event) => {
             event.preventDefault();
-            seleccionaColor();
+            seleccionaColor(categoria);
             console.log(color);
     
         //Objeto a enviar a API cuando se haga click en boton Guardar
